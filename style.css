@@ -1,0 +1,50 @@
+body {
+	background-color:red;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+}
+
+#page {
+    background-color:white;
+    width: 30%;
+    display:flex;
+    flex-direction:column;
+	justify-content:center;
+	align-items: center;
+}
+
+#main {
+    margin: 5px;
+    width : 90%
+}
+
+#buttons {
+    display:flex;
+	flex-direction:row;
+	justify-content:center;
+	
+	margin: 5px;
+}
+
+#refuse {
+    width: 50%;
+    background-color : red;
+    margin-right : 2px
+}
+
+#match {
+    text-align: right;
+	
+    width: 50%;
+    background-color : green;
+    margin-left : 2px
+}
+
+#buttons img{
+    width: 5%;
+}
